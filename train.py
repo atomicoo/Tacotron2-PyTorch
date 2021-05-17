@@ -10,7 +10,7 @@ import config
 from datasets import Text2MelDataset, Text2MelDataLoader
 from models import Tacotron2
 from models.losses import Tacotron2Loss, AverageMeter
-from models.optims import Tacotron2Optimizer
+from models.optimizers import Tacotron2Optimizer
 from helpers.logger import Logger
 from utils.common import save_checkpoint, load_checkpoint
 
